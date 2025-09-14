@@ -1,0 +1,25 @@
+{
+  "name": "mini-mongo-project",
+  "version": "1.0.0",
+  "description": "Mini REST API for managing books with MongoDB and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "express",
+    "books",
+    "rest"
+  ],
+  "author": "Artem Hyrych",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.1"
+  }
+}
