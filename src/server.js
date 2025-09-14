@@ -27,5 +27,5 @@ app.use(errorHandler);
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(`API Documentation: http://localhost:${PORT}/api/v1/health`);
+  console.log(`Healthcheck: http://localhost:${PORT}/api/v1/health`);
 });
